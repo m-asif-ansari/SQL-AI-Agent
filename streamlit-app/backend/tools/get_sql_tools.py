@@ -1,6 +1,9 @@
 from langchain_community.agent_toolkits import SQLDatabaseToolkit
+from langchain_community.utilities import SQLDatabase
+from langchain_groq import ChatGroq
 
-def get_sql_tools(db, llm):
+
+def get_sql_tools(db: SQLDatabase, llm: ChatGroq) -> list:
     """
     Function to retrieve the necessary SQL tools for interacting with the database.
 

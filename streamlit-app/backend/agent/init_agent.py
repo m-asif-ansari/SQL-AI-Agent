@@ -3,7 +3,7 @@ from backend.tools.get_sql_tools import get_sql_tools
 from langchain_community.utilities import SQLDatabase
 from langchain_groq import ChatGroq
 
-def init_agent(db: SQLDatabase, llm: ChatGroq):
+def init_agent(db: SQLDatabase, llm: ChatGroq) -> create_react_agent:
     """
     Function to initialize the SQL Agent with the input database object and LLM runnable.
 
