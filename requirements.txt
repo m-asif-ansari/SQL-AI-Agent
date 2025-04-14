@@ -1,6 +1,8 @@
-langchain-community 
-# langchainhub 
-langgraph
-langchain[groq]
-streamlit
 python-dotenv
+langchain
+langchain[groq]
+langchain-community 
+langgraph
+streamlit
+pandas
+sqlalchemy
